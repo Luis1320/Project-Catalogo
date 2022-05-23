@@ -15,7 +15,7 @@
     align-items: center;
     background-color: blue;
 }
-.section{
+.marca{
     width: 100%;
     background-color: white;
     color: blue;
@@ -62,4 +62,29 @@ object-fit: contain;
 }
 .p-specs{
     padding: 10px 10px;
+}
+.social-container{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+.social-container h1{
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.social-container .social-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px 0px;
+}
+.social-container .social-ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 15px;
 }
