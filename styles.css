@@ -15,7 +15,7 @@
     align-items: center;
     background-color: blue;
 }
-.nike{
+.marca{
     width: 100%;
     background-color: white;
     color: blue;
@@ -35,8 +35,10 @@
 }
 .flex-item{
 width: 250px;
-
 height: 400px;
+}
+.flex-item .img-container{
+    height: 250px;
 }
 .flex-item .img-container img{
 width: 100%;
